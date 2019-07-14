@@ -1,0 +1,16 @@
+创建一个空目录
+$ mkdir learngit$ cd learngit$ pwd/Users/michael/learngit
+把目录设置为GIT可管理的仓库
+$ git initInitialized empty Git repository in /Users/leslie/learngit/.git/
+
+Github官网注册账号
+
+生成密钥
+ssh-keygen -t rsa -C "你的github注册邮箱"
+cat id_rsa.pub——复制密钥，在github中绑定密钥
+ssh -T git@github.com
+yes
+
+$ git config --global user.name "Your Name"$ git config --global user.email "email@example.com"
+
+git clone 复制链接
