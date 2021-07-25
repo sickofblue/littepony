@@ -14,3 +14,7 @@ yes
 $ git config --global user.name "Your Name"$ git config --global user.email "email@example.com"
 
 git clone 复制链接
+
+git add
+git commit
+git push
